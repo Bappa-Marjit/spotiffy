@@ -1,0 +1,756 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.main {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(29, 29, 29);
+
+}
+
+.sidebar {
+    width: 280px;
+    border-radius: 1rem;
+
+
+}
+
+.mainbar {
+    background-color: rgb(0, 0, 0);
+    flex: 1;
+    overflow: auto;
+    border-radius: 1rem;
+    margin-left: 1px;
+    margin-top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(44, 101, 39);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar i {
+    color: white;
+    margin-left: 15px;
+}
+
+.navbar #icn {
+    margin-left: 20%;
+}
+
+.navbar input {
+    width: 30%;
+    text-align: center;
+    border-radius: 1rem;
+    margin-left: 20%;
+    color: black;
+}
+
+.navbar i {
+    color: rgb(255, 255, 255);
+}
+
+.navbar #icon {
+    color: rgb(255, 255, 255);
+}
+
+.navbar #con {
+    margin-left: 5%;
+    color: white;
+}
+
+.navbar .login {
+    height: 30px;
+    width: 70px;
+    background-color: white;
+    margin-left: 50px;
+    border-radius: 16px;
+}
+
+.navbar h3 {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+
+.sec1 {
+    height: 330px;
+    width: 100%;
+    background-image: url(assets/pik10.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    margin-top: 10px;
+}
+
+.sec1 h1 {
+    color: white;
+    font-size: 1.30rem;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.sec1 .card i {
+    color: gold;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.card {
+    height: 210px;
+    width: 150px;
+    background-color: rgba(31, 30, 30, 0.882);
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 1rem;
+}
+
+.card img {
+    border-radius: 1rem;
+}
+
+.card_in {
+    height: 120px;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card_in img {
+    height: 110px;
+    width: 100%;
+}
+
+.card h2 {
+    font-size: 13px;
+    color: white;
+    margin-left: 9px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 8px;
+    color: white;
+    margin-left: 10px;
+}
+
+.card:hover {
+    background-color: rgb(70, 102, 69);
+    transform: scale(1rem);
+}
+
+.hed {
+    height: 30px;
+    width: 100%;
+    margin-left: 15px;
+    background-color: rgba(6, 6, 6, 0.202);
+}
+
+.sec2 {
+    height: 280px;
+    width: 100%;
+    background-color: rgba(6, 6, 6, 0.202);
+    /*border: 1px solid rgba(255, 255, 255, 0.375);*/
+    border-radius: 1rem;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sec2 i {
+    color: gold;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: small;
+}
+
+.sec2 #non {
+    font-size: 13px;
+    color: white;
+}
+
+.hed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hed h1 {
+    width: auto;
+    color: white;
+    font-size: 1rem;
+
+}
+
+.hed p {
+    color: white;
+    font-size: 12px;
+    margin-right: 40px;
+}
+
+.head {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head h1 {
+    width: auto;
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.head p {
+    color: white;
+    font-size: 12px;
+    margin-right: 40px;
+}
+
+.sec3 {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(6, 6, 6, 0.202);
+    border: 1px solid rgba(255, 254, 254, 0.241);
+    border-radius: 1rem;
+    margin-top: 10px;
+}
+
+.sec3 .in1 {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec3 .in2 {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.head1 {
+    height: 40px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.head1 h1 {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 6px;
+    display: flex;
+
+}
+
+.head1 p {
+    color: white;
+    font-size: 12px;
+    margin-right: 40px;
+}
+
+
+.sec4 {
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sec4 .round1 {
+    height: 90px;
+    width: 90px;
+    background-image: url(assets/img49.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.sec4 .round2 {
+    height: 90px;
+    width: 90px;
+    background-image: url(assets/img42.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.sec4 .round3 {
+    height: 90px;
+    width: 90px;
+    background-image: url(assets/img41.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.sec4 .round4 {
+    height: 90px;
+    width: 90px;
+    background-image: url(assets/img44.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.sec4 .round5 {
+    height: 90px;
+    width: 90px;
+    background-image: url(assets/img46.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.sec4 .round6 {
+    height: 90px;
+    width: 90px;
+    background-image: url(assets/img47.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.sec4 .round7 {
+    height: 90px;
+    width: 90px;
+    background-image: url(assets/img43.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.sec4 .round8 {
+    height: 90px;
+    width: 90px;
+    background-image: url(assets/img40.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.had {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.had h1 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.had p {
+    color: white;
+    font-size: 12px;
+    margin-right: 40px;
+}
+
+.sec5 {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cad {
+    height: 210px;
+    width: 150px;
+    background-color: rgba(31, 30, 30, 0.882);
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.38);
+}
+
+.cad-in {
+    height: 120px;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.cad-in img {
+    height: 110px;
+    width: 100%;
+}
+
+.cad h2 {
+    color: white;
+    font-size: 13px;
+
+}
+
+.cad p {
+    color: white;
+    font-size: 0.50rem;
+}
+.cad:hover{
+     background-color: rgb(70, 102, 69);
+     
+}
+
+.hod {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hod h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.hod p {
+    color: white;
+    font-size: 12px;
+    margin-right: 40px;
+}
+
+.sec6 {
+    height: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bot1 {
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(44, 43, 43);
+    background-image: url(assets/card5img.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.bot2 {
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(44, 43, 43);
+    background-image: url(assets/img61.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.bot3 {
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(44, 43, 43);
+    background-image: url(assets/img63.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.bottam {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(29, 129, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+controls{
+    background-color: blue;
+}
+
+.left {
+    height: 70px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.left .im {
+    height: 60px;
+    width: 80px;
+    background-image: url(assets/card3img.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.left p {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.sec7 {
+    height: 200px;
+    width: 90%;
+    border-top: 1px solid white;
+    margin-left: 5%;
+}
+/* 
+.bottam img {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 30%;
+    top: 4px;
+    padding: 18px;
+    border-bottom: 1px solid white;
+} */
+
+/*.bottam #im{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 5px;
+    border: none;
+}*/
+
+.side_nav {
+    height: 79px;
+    width: 260px;
+    border-radius: 1rem;
+    background-color: rgb(72, 72, 72);
+    margin-top: 10px;
+    margin-left: 9px;
+    position: sticky;
+
+}
+
+.nav_home {
+    width: 260px;
+    height: 50%;
+    color: white;
+    margin-top: 0;
+
+}
+
+.nav_home:hover {
+    border: solid 1px rgba(33, 29, 29, 0.311);
+    background-color: rgba(147, 237, 147, 0.521);
+}
+
+.nav_home i {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.nav_home a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.nav_search {
+    width: 260px;
+    height: 50%;
+    color: white;
+
+}
+
+.nav_search:hover {
+    background-color: rgba(147, 237, 147, 0.521);
+}
+
+.nav_search i {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.nav_search a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.side_library {
+    width: 260px;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: rgb(26, 24, 24);
+    margin-top: 10px;
+    margin-left: 9px;
+    overflow: auto;
+}
+
+.box1 {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(67, 82, 51);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+}
+
+.box1 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.box2 {
+    height: 180px;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 12px;
+    top: 19px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.20s ease-in-out;
+
+
+}
+
+.box2:hover {
+    background-color: rgba(157, 152, 152, 0.2);
+}
+
+.box2 h1 {
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
+
+.box2 h3 {
+    font-size: 0.80rem;
+    color: rgba(255, 255, 255, 0.659);
+    margin-left: 25px;
+
+}
+
+.box2 button {
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 1rem;
+}
+
+.box2 button:hover {
+    background-color: rgba(127, 202, 127, 0.587);
+    color: white;
+}
+
+.box3 {
+    height: 180px;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 12px;
+    border-radius: 1rem;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box3:hover {
+    background-color: rgba(157, 152, 152, 0.2);
+}
+
+.box3 h1 {
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
+
+.box3 h3 {
+    font-size: 0.80rem;
+    color: white;
+    margin-left: 25px;
+
+}
+
+.box3 button {
+    width: 55%;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 1rem;
+    font-size: small;
+}
+
+.box3 button:hover {
+    background-color: rgba(127, 202, 127, 0.587);
+    color: white;
+}
+
+.box4 {
+    height: 180px;
+    width: 180px;
+    background-color: rgb(77, 79, 78);
+    position: relative;
+    left: 35px;
+    border-radius: 1rem;
+    margin-top: 50px;
+}
+#source{
+    background-color: red;
+}
